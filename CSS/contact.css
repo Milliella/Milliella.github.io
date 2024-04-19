@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url("../images/canvas.jpeg");
+}
+
+h1 {
+    font-family: monospace;
+    color: black;
+    font-size: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 20px;
+    border: 4px;
+
+}
+
+p {
+    font-family: monospace;
+    color: black;
+    font-size: 20px;
+
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+
+
+}
+
+.infomation-container {
+    display: block;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+
+.infomation-container img {
+    display: block;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.column {
+    padding: 5px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        /* flex: 50%; */
+        min-width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        /* flex: 100%; */
+        max-width: 100%;
+
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}

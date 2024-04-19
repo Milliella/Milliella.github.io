@@ -1,0 +1,116 @@
+/* making text appeare when hover over image */
+.overlay{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.column :hover .overlay{
+    opacity: 1;
+}
+.text{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+
+}
+.image{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+/* gouache orignial div */
+<div class="image-container">
+        <div class="row">
+            <div class="column">
+                <img src="painting images/red-book-cover.jpeg">
+                <img src="painting images/side-of-book.jpeg">
+                <img src="painting images/inside-of-book.jpeg">
+                <img src="painting images/blue-acrylic-coral.jpeg">
+            </div>
+            <div class="column">
+                <img src="painting images/blue-sqiggles-page.jpeg">
+                <img src="painting images/blue-black-page.jpeg">
+                <img src="painting images/big-rubs-page.jpeg">
+                <img src="painting images/blue-ribs-veins-page.jpeg">
+                <img src="painting images/brain-monster.jpeg">
+            </div>
+            <div class="column">
+                <img src="painting images/blue-heart-page.jpeg">
+                <img src="painting images/spine-page.jpeg">
+                <img src="painting images/veins-mass-page.jpeg">
+                <img src="painting images/muddy-page.jpeg">
+                <img src="painting images/green-yellow-weird-land.jpeg">
+            </div>
+            <div class="column">
+                <img src="painting images/pink-page.jpeg">
+                <img src="painting images/heart-blue-page.jpeg">
+                <img src="painting images/pink-gouache-square-2.jpeg">
+                <img src="painting images/pink-gouache-square.jpeg">
+                <img src="painting images/yellow-gouache-watercolour-rectangle.jpeg">
+            </div>
+        </div>
+    </div>
+
+/* modal image gallery stuff  */
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="painting images/blue-sqiggles-page.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="painting images/heart-blue-page.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="painting images/blue-acrylic-coral.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="painting images/blue-heart-page.jpeg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="column2">
+                <img class="demo cursor" src="painting images/blue-sqiggles-page.jpeg" style="width: 100%" onclick="currentSlide(1)" alt="Organ on da move">
+            </div>
+            <div class="column2">
+                <img class="demo cursor" src="painting images/heart-blue-page.jpeg" style="width: 100%" onclick="currentSlide(1)" alt="its got a heart on it">
+            </div>
+            <div class="column2">
+                <img class="demo cursor" src="painting images/blue-acrylic-coral.jpeg" style="width: 100%" onclick="currentSlide(1)" alt="bad quality">
+            </div>
+            <div class="column2">
+                <img class="demo cursor" src="painting images/blue-heart-page.jpeg" style="width: 100%" onclick="currentSlide(1)" alt="another heart?">
+            </div>
+        </div>
+    </div>
+</body>
+
+onclick="openModal();currentSlide(1)"
+<script src="js/paintings.js"></script>
+
+/* contact icon */
+<a href="contact.html">
+<img src="images/oil-paint4.png">
+</a>
