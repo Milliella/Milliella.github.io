@@ -16,21 +16,21 @@
     <img src="images/name-logo.png" alt="Milliella King, Fine Artist">
   </div>
   <div class="row">
-    <a href="paintings.html">
+    <a href="https://milliella.github.io/paintings.html">
       <img src="images/oil-paint5.png" alt="Acrylic Paintings">
     </a>
-    <a href="digital.html">
+    <a href="https://milliella.github.io/digital.html">
       <img src="images/oil-paint2.png" alt="Digital Work">
     </a>
-    <a href="gouache.html">
+    <a href="https://milliella.github.io/gouache.html">
       <img src="images/oil-paint3.png" alt="Gouache Paintings">
     </a>
   </div>
   <div class="row">
-    <a href="pencil.html">
+    <a href="https://milliella.github.io/pencil.html">
       <img src="images/oil-paint1.png" alt="Pencil and Ink work">
     </a>
-    <a href="about.html">
+    <a href="https://milliella.github.io/about.html">
       <img src="images/oil-paint6.png" alt="contact and about">
     </a>
   </div>
