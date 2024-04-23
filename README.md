@@ -1,1 +1,41 @@
-# MilliellaKing.github.io
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio i like this one</title>
+  <link rel="Stylesheet" href="css/homepage.css">
+
+</head>
+<!--title of the page and a subheading-->
+
+<body>
+  <div class="header">
+    <img src="images/name-logo.png" alt="Milliella King, Fine Artist">
+  </div>
+  <div class="row">
+    <a href="paintings.html">
+      <img src="images/oil-paint5.png" alt="Acrylic Paintings">
+    </a>
+    <a href="digital.html">
+      <img src="images/oil-paint2.png" alt="Digital Work">
+    </a>
+    <a href="gouache.html">
+      <img src="images/oil-paint3.png" alt="Gouache Paintings">
+    </a>
+  </div>
+  <div class="row">
+    <a href="pencil.html">
+      <img src="images/oil-paint1.png" alt="Pencil and Ink work">
+    </a>
+    <a href="about.html">
+      <img src="images/oil-paint6.png" alt="contact and about">
+    </a>
+  </div>
+</body>
+
+
+<!-- 168.1.106:5500 -->
+<!-- "http://192.168.1.106:5500/portfolio/paintings.html" original paintings link -->
